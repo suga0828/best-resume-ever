@@ -1,0 +1,69 @@
+/* #*/ export const PERSON = `
+name:
+  first: Alexander
+  middle: José
+  last: Sandoval
+about: Hi, my name is Alexander Sandoval. I'm a Frontend Developer.
+position: Frontend Developer
+
+birth:
+  year: 1995
+  location: Caracas, Venezuela.
+
+experience:
+- company: Freelance
+  position: Frontend Developer
+  timeperiod: since January 2017
+  description: Design and development of web pages and applications. Landing page using HTML5, CSS3, Javascript (ES6) and jQuery and web applications using Angular2+ and Firebase.
+
+education:
+- degree: Development career with Angular at Platzi.
+  timeperiod: May - October 2018
+  description: Development of SPA and PWA desktop and mobile applications with Angular2 + and Ionic.
+
+- degree: Backend development career with PHP at Platzi.
+  timeperiod: May - October 2018
+  description: Use PHP 7 and create websites, applications and even a CMS. In addition, learn Laravel.
+
+- degree: Degree in Physics
+  timeperiod: September 2011 - 2017
+  description: Simon Bolivar University. Caracas, Venezuela. Still Incomplete.
+
+- degree: Web Design Course HTML5 and CSS3 from scratch
+  timeperiod: March 2016
+  description: Escuela Web, specialized training center in web design and development. Caracas, Venezuela.
+
+- degree: PHP course | Web Development with Laravel
+  timeperiod: January 2017 - February 2017
+  description: Escuela Web, specialized training center in web design and development. Caracas, Venezuela.
+
+# skill level goes 0 to 100
+skills:
+- name: HTML5 & CSS3
+  level: 90
+- name: Javascript (ES6)
+  level: 60
+- name: jQuery
+  level: 60
+- name: Angular
+  level: 60
+- name: PHP
+  level: 60
+- name: Laravel
+  level: 50
+#- name: SQL/Mysql
+#  level: 30
+- name: Git/Github
+  level: 70
+knowledge: Intermediate English proficiency.
+
+contact:
+  email: alexander.sf0828@gmail.com
+  phone: (+57) 300 733 3671
+  street:
+  city: Bogotá, Colombia.
+  website: suga0828.github.io
+  github: suga0828
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko
+lang: en
+`
