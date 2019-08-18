@@ -3,35 +3,40 @@ name:
   first: Alexander
   middle: José
   last: Sandoval
-about: Hola, mi nombre es Alexander Sandoval y soy Desarrollador Frontend.
+about: Desarrollador Frontend con gran capacidad de abstración y pensamiento lógico. Entusiasta del Código Abierto.
 position: Desarrollador Frontend
 
-birth:
-  year: 1995
-  location: Caracas, Venezuela.
+# birth:
+#   year: 1995
+#   location: Caracas, Venezuela.
 
 experience:
 - company: Aguayo Publicidad
   position: Desarrollador Frontend Junior
   timeperiod: desde Enero 2019
   description: Desarrollo de Interfaces de Usuario Web (Web UI) usando HTML5/PUG, CSS3 con SASS como preprocesador, Gulp y Webpack como automatizadores de tarea. Integración de dichas interfaces en plantillas de Django Framework. Manejo de versiones con Git y Gitflow.
+  website: https://aguayopublicidad.com/
+
 - company: Freelance
   position: Desarrollador Frontend
   timeperiod: desde Enero 2017
-  description: Desarrollo de aplicaciones web usando Angular2+, Javascript y Firebase. Diseño y desarrollo de páginas Landing page usando HTML5, SCSS y Javascript.
+  description: Desarrollo de aplicaciones web usando Angular, Javascript y Firebase. Diseño y desarrollo de páginas Landing page usando HTML5, SCSS y Javascript.
 
 education:
-- degree: Carrera de desarrollo con Angular en Platzi.
+- degree: Carrera de Desarrollo con Angular en Platzi.
   timeperiod: Mayo 2018 - Enero 2019
-  description: Desarrollo de aplicaciones web Single Page Aplicatons (SPA) con características de Progressive Web Aplications (PWA) con Angular4+ e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
+  description: Desarrollo de aplicaciones web Single Page Applications (SPA) con características de Progressive Web Applications (PWA) con Angular4+ e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
+  website: https://platzi.com/
 
 - degree: Licenciatura en Física
   timeperiod: Septiembre 2011 - 2017
   description: Undécimo trimestre, Universidad Simón Bolívar. Caracas, Venezuela.
+  website: https://usb.ve/
 
 - degree: Curso de desarrollo web HTML5 y CSS3 desde cero
   timeperiod: Marzo 2016
   description: Escuela Web, Centro de Formación especializado en Diseño y Desarrollo Web. Caracas, Venezuela.
+  website: https://escuelaweb.net/
 
 # skill level goes 0 to 100
 skills:
@@ -45,21 +50,21 @@ skills:
   level: 85
 - name: CSS3 (SCSS)
   level: 90
-- name: Node.js
-  level: 45
 - name: Git/Github
   level: 90
+- name: Node.js
+  level: 45
 - name: Typescript
   level: 70
 - name: Ionic
   level: 60
-knowledge: Dominio intermedio de inglés.
+# knowledge: Dominio intermedio de inglés.
 
 projects:
-- name: Tour-of-StarWars
-  platform: Angular
-  description: Angular library to consume swapi.co API.
-  url: https://github.com/suga0828/Tour-of-StarWars
+# - name: Tour-of-StarWars
+#   platform: Angular
+#   description: Angular library to consume swapi.co API.
+#   url: https://github.com/suga0828/Tour-of-StarWars
 
 # hobbies:
 # - name: Video Games
@@ -68,8 +73,8 @@ projects:
 
 contributions:
 - name: opensource.guide
-  description: Community guides for open source creators https://opensource.guide/
-  url: https://github.com/github/opensource.guide
+  description: El software de código abierto es desarrollado por personas como tú, aprende cómo crear y hacer que tu proyecto crezca. https://opensource.guide/
+  url: https://opensource.guide/
 
 contact:
   email: alexander.sf0828@gmail.com
@@ -78,6 +83,7 @@ contact:
   city: Bogotá, Colombia.
   website: suga0828.github.io/suga0828/
   github: suga0828
+  linkedin: suga0828
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko
 lang: es
 `
