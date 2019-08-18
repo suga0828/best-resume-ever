@@ -8,6 +8,6 @@ const lang = {
     contributions: 'Contribuciones',
     born: 'Nacido en',
     bornIn: 'en',
-    about: 'Sobre mi'
+    about: 'Sobre mí'
 };
 export default lang;

@@ -48,7 +48,7 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>{{ person.contact.city }}
             </div>
 
             <a
@@ -64,28 +64,32 @@
             <a
               v-if="person.contact.website"
               class="section-link"
-              :href="person.contact.website">
+              :href="person.contact.website"
+              target="_blank">
               <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
             </a>
 
             <a
               v-if="person.contact.linkedin"
               class="section-link"
-              :href="contactLinks.linkedin">
+              :href="contactLinks.linkedin"
+              target="_blank">
               <i class="section-link__icon fa fa-linkedin"></i>{{ person.contact.linkedin }}
             </a>
 
             <a
               v-if="person.contact.github"
               class="section-link"
-              :href="contactLinks.github">
+              :href="contactLinks.github"
+              target="_blank">
               <i class="section-link__icon fa fa-github"></i>{{ person.contact.github }}
             </a>
 
             <a
               v-if="person.contact.medium"
               class="section-link"
-              :href="contactLinks.medium">
+              :href="contactLinks.medium"
+              target="_blank">
               <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
             </a>
           </div>
@@ -103,7 +107,8 @@
               v-for="(experience, index) in person.experience"
               :key="index"
               class="section-content__item"
-              :href="experience.website">
+              :href="experience.website"
+              target="_blank">
 
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
@@ -127,10 +132,11 @@
               v-for="(education, index) in person.education"
               class="section-content__item"
               :key="index"
-              :href="education.website">
+              :href="education.website"
+              target="_blank">
 
               <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
+              <span class="section-content__header">{{ education.degree }}</span>
               <span class="section-content__text"> {{ education.timeperiod }} </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
             </a>
@@ -147,7 +153,8 @@
           <div class="section-content-grid">
             <a v-for="(project, index) in person.projects" :key="index"
               class="section-content__item-grid"
-              :href="project.url">
+              :href="project.url"
+              target="_blank">
               <span class="section-content__header"> {{ project.name }} </span>
               <span class="section-content__subheader">{{ project.platform }}</span>
               <span class="section-content__text"> {{ project.description }} </span>
@@ -162,17 +169,18 @@
             <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content">
             <a
               v-for="(contribution, index) in person.contributions"
-              class="section-content__item-grid"
+              class="section-content__item"
               :key="index"
-              :href="contribution.url">
+              :href="contribution.url"
+              target="_blank">
               <span class="section-content__header"> {{ contribution.name }} </span>
               <span class="section-content__text"> {{ contribution.description }} </span>
-              <span class="section-content__text--light" style="word-break: break-all;">
+              <!-- <span class="section-content__text--light" style="word-break: break-all;">
                 {{ contribution.url }}
-              </span>
+              </span> -->
             </a>
           </div>
         </div>
@@ -315,7 +323,7 @@ a {
 
   &__item {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   &__header {
