@@ -8,17 +8,17 @@ position: Desarrollador Frontend
 
 birth:
   year: 1995
-  location: Miranda, Venezuela.
+  location: Caracas, Venezuela.
 
 experience:
-- company: Freelance
-  position: Desarrollador Frontend
-  timeperiod: desde Enero 2017
-  description: Diseño y desarrollo de páginas y aplicaciones web. Landing page usando HTML5, CSS3, Javascript (ES6) y jQuery y aplicaciones web usando Angular2+ y Firebase.
 - company: Aguayo Publicidad
   position: Desarrollador Frontend Junior
   timeperiod: desde Enero 2019
   description: Desarrollo de Interfaces de Usuario Web (Web UI) usando HTML5/PUG, CSS3 con SASS como preprocesador, Gulp y Webpack como automatizadores de tarea. Integración de dichas interfaces en plantillas de Django Framework. Manejo de versiones con Git y Gitflow.
+- company: Freelance
+  position: Desarrollador Frontend
+  timeperiod: desde Enero 2017
+  description: Desarrollo de aplicaciones web usando Angular2+, Javascript (ES6) y Firebase. Diseño y desarrollo de páginas Landing page usando HTML5, SASS y Javascript.
 
 education:
 - degree: Carrera de desarrollo con Angular en Platzi.
@@ -54,6 +54,22 @@ skills:
 - name: Git/Github
   level: 90
 knowledge: Dominio intermedio de inglés.
+
+projects:
+- name: Tour-of-StarWars
+  platform: Angular
+  description: Angular library to consume swapi.co API.
+  url: https://github.com/suga0828/Tour-of-StarWars
+
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
+
+contributions:
+- name: opensource.guide
+  description: Community guides for open source creators https://opensource.guide/
+  url: https://github.com/github/opensource.guide
 
 contact:
   email: alexander.sf0828@gmail.com
