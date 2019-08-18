@@ -18,16 +18,16 @@ experience:
 - company: Freelance
   position: Desarrollador Frontend
   timeperiod: desde Enero 2017
-  description: Desarrollo de aplicaciones web usando Angular2+, Javascript (ES6) y Firebase. Diseño y desarrollo de páginas Landing page usando HTML5, SASS y Javascript.
+  description: Desarrollo de aplicaciones web usando Angular2+, Javascript y Firebase. Diseño y desarrollo de páginas Landing page usando HTML5, SCSS y Javascript.
 
 education:
 - degree: Carrera de desarrollo con Angular en Platzi.
-  timeperiod: Mayo 2018 - Mayo 2019
-  description: Desarrollo de aplicaciones web Single Page Aplicatons (SPA) y Progressive Web Aplications (PWA) con Angular4+ e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
+  timeperiod: Mayo 2018 - Enero 2019
+  description: Desarrollo de aplicaciones web Single Page Aplicatons (SPA) con características de Progressive Web Aplications (PWA) con Angular4+ e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
 
 - degree: Licenciatura en Física
   timeperiod: Septiembre 2011 - 2017
-  description: Universidad Simón Bolívar. Caracas, Venezuela. Sin completar.
+  description: Undécimo trimestre, Universidad Simón Bolívar. Caracas, Venezuela.
 
 - degree: Curso de desarrollo web HTML5 y CSS3 desde cero
   timeperiod: Marzo 2016
@@ -35,24 +35,24 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5 & CSS3
-  level: 85
-- name: CSS3
-  level: 90
 - name: Angular
-  level: 70
-- name: Javascript (ES6)
+  level: 75
+- name: Javascript
   level: 65
-- name: Typescript
-  level: 70
 - name: Firebase
-  level: 65
-- name: Ionic
-  level: 60
+  level: 70
+- name: HTML5
+  level: 85
+- name: CSS3 (SCSS)
+  level: 90
 - name: Node.js
   level: 45
 - name: Git/Github
   level: 90
+- name: Typescript
+  level: 70
+- name: Ionic
+  level: 60
 knowledge: Dominio intermedio de inglés.
 
 projects:
