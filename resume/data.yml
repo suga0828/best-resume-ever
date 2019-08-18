@@ -2,8 +2,8 @@
 name:
   first: Alexander
   middle: José
-  last: Sandoval
-about: Desarrollador Frontend con gran capacidad de abstración y pensamiento lógico. Entusiasta del Código Abierto.
+  last: Sandoval Figueredo
+about: Desarrollador Frontend con gran capacidad de abstracción y pensamiento lógico. Entusiasta del Código Abierto.
 position: Desarrollador Frontend
 
 # birth:
@@ -14,7 +14,7 @@ experience:
 - company: Aguayo Publicidad
   position: Desarrollador Frontend Junior
   timeperiod: desde Enero 2019
-  description: Desarrollo de Interfaces de Usuario Web (Web UI) usando HTML5/PUG, CSS3 con SASS como preprocesador, Gulp y Webpack como automatizadores de tarea. Integración de dichas interfaces en plantillas de Django Framework. Manejo de versiones con Git y Gitflow.
+  description: Desarrollo de Interfaces de Usuario Web (Web UI) usando HTML5/PUG, CSS3 con SCSS como preprocesador, Gulp y Webpack como automatizadores de tarea. Integración de dichas interfaces en plantillas de Django Framework. Manejo de versiones con Git y Gitflow.
   website: https://aguayopublicidad.com/
 
 - company: Freelance
@@ -25,7 +25,7 @@ experience:
 education:
 - degree: Carrera de Desarrollo con Angular en Platzi.
   timeperiod: Mayo 2018 - Enero 2019
-  description: Desarrollo de aplicaciones web Single Page Applications (SPA) con características de Progressive Web Applications (PWA) con Angular4+ e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
+  description: Desarrollo de aplicaciones web Single Page Applications (SPA) con características de Progressive Web Applications (PWA) con Angular e Ionic. Implementación de Firebase para Autenticación, Bases de Datos, Storage, Hosting y Cloud Functions.
   website: https://platzi.com/
 
 - degree: Licenciatura en Física
