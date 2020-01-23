@@ -72,11 +72,6 @@ projects:
 #   description: Angular library to consume swapi.co API.
 #   url: https://github.com/suga0828/Tour-of-StarWars
 
-# hobbies:
-# - name: Video Games
-#   iconClass: fa fa-gamepad
-#   url: https://example.com
-
 contributions:
 - name: opensource.guide
   description: El software de código abierto es desarrollado por personas como tú, aprende cómo crear y hacer que tu proyecto crezca. https://opensource.guide/
