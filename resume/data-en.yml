@@ -2,8 +2,8 @@
 name:
   first: Alexander
   middle: José
-  last: Sandoval
-about: Hi, my name is Alexander Sandoval. I'm a Frontend Developer.
+  last: Sandoval Figueredo
+about: Frontend Developer. Progressive, Single y Fullstack JavaScript Web Applications created.
 position: Frontend Developer
 
 birth:
@@ -11,49 +11,61 @@ birth:
   location: Caracas, Venezuela.
 
 experience:
+- company: Rappi
+  position: Frontend Developer
+  timeperiod: October 2019 - Currently
+  list:
+    - Develop of Web App with Angular, JavaScript and Firebase.
+  website: https://www.rappi.com.co/
+
+- company: Aguayo Publicidad
+  position: Frontend Developer Junior
+  timeperiod: January 2019 - September 2019
+  list:
+    - Web User Interfaces development with HTML5/PUG.
+    - CSS3/SCSS as preprocessor.
+    - Gulp and Webpack for tasks automation.
+    - Integratetion of Django Framework templates with Web UI.
+    - Git with Gitflow as version manager.
+  website: https://aguayopublicidad.com/
+
 - company: Freelance
   position: Frontend Developer
-  timeperiod: since January 2017
-  description: Design and development of web pages and applications. Landing page using HTML5, CSS3, Javascript (ES6) and jQuery and web applications using Angular2+ and Firebase.
+  timeperiod: January 2017 - Currently
+  list:
+    - Development of web applications using JavaScript, Angular and Firebase.
+    - Design and development of landing pages using HTML5, CSS3 and Javascript (ES6).
 
 education:
 - degree: Development career with Angular at Platzi.
-  timeperiod: May - October 2018
-  description: Development of SPA and PWA desktop and mobile applications with Angular2 + and Ionic.
-
-- degree: Backend development career with PHP at Platzi.
-  timeperiod: May - October 2018
-  description: Use PHP 7 and create websites, applications and even a CMS. In addition, learn Laravel.
+  timeperiod: May 2018 - January 2019
+  description: SPA and PWA desktop and mobile applications development with Angular and Ionic.
 
 - degree: Degree in Physics
-  timeperiod: September 2011 - 2017
+  timeperiod: September 2011 - September 2017
   description: Simon Bolivar University. Caracas, Venezuela. Still Incomplete.
 
 - degree: Web Design Course HTML5 and CSS3 from scratch
   timeperiod: March 2016
   description: Escuela Web, specialized training center in web design and development. Caracas, Venezuela.
 
-- degree: PHP course | Web Development with Laravel
-  timeperiod: January 2017 - February 2017
-  description: Escuela Web, specialized training center in web design and development. Caracas, Venezuela.
-
 # skill level goes 0 to 100
 skills:
+- name: Typescript
+  level: 80
 - name: HTML5 & CSS3
   level: 90
-- name: Javascript (ES6)
-  level: 60
-- name: jQuery
-  level: 60
 - name: Angular
   level: 60
-- name: PHP
-  level: 60
-- name: Laravel
+- name: React
   level: 50
-#- name: SQL/Mysql
-#  level: 30
-- name: Git/Github
+- name: Javascript (ES6)
+  level: 60
+- name: Go
+  level: 30
+- name: Firebase
+  level: 50
+- name: Git
   level: 70
 knowledge: Intermediate English proficiency.
 
